@@ -121,7 +121,7 @@ export default function Footer() {
           >
             <p>© 2025 Jasira. All rights reserved.</p>
             <p className="flex items-center gap-1">
-              Designed with <Heart size={12} className="text-primary fill-primary" /> in Calicut
+              Designed with <Heart size={12} className="text-primary fill-primary" /> By AKS
             </p>
           </motion.div>
         </motion.div>
