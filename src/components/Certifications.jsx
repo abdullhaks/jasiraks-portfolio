@@ -1,6 +1,5 @@
 import React from "react"
 import { motion } from "framer-motion"
-import { Award, BadgeCheck, GraduationCap } from "lucide-react"
 import { Card, CardContent } from "./ui/card"
 
 /* ===== ANIMATION VARIANTS ===== */
@@ -17,23 +16,23 @@ const staggerContainer = {
 const certifications = [
   {
     name: "Google Ads Certified",
-    icon: BadgeCheck,
+    logo: "/googleads.jpg",
     accent: "#4285F4",
-    accentBg: "rgba(66, 133, 244, 0.1)",
+    accentBg: "rgba(66, 133, 244, 0.08)",
     desc: "Google Ads Search & Display certification",
   },
   {
     name: "SEMrush Certified",
-    icon: Award,
+    logo: "/semrush.jpg",
     accent: "#FF642D",
-    accentBg: "rgba(255, 100, 45, 0.1)",
+    accentBg: "rgba(255, 100, 45, 0.08)",
     desc: "SEMrush SEO Toolkit certification",
   },
   {
     name: "HubSpot Certified",
-    icon: GraduationCap,
+    logo: "/hubSpot.jpg",
     accent: "#FF5C35",
-    accentBg: "rgba(255, 92, 53, 0.1)",
+    accentBg: "rgba(255, 92, 53, 0.08)",
     desc: "HubSpot Inbound Marketing certification",
   },
 ]
@@ -88,12 +87,16 @@ export default function Certifications() {
               <Card className="p-8 h-full hover:shadow-lg transition-all duration-300 group">
                 <CardContent className="p-0 flex flex-col items-center text-center">
                   <div
-                    className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6"
-                    style={{ backgroundColor: cert.accentBg }}
+                    className="w-20 h-20 rounded-2xl flex items-center justify-center mb-6 overflow-hidden p-2"
+                    style={{
+                      backgroundColor: cert.accentBg,
+                      border: `1px solid ${cert.accent}20`,
+                    }}
                   >
-                    <cert.icon
-                      size={32}
-                      style={{ color: cert.accent }}
+                    <img
+                      src={cert.logo}
+                      alt={`${cert.name} logo`}
+                      className="w-full h-full object-contain rounded-lg"
                     />
                   </div>
                   <h3 className="text-lg font-bold text-dark mb-2">{cert.name}</h3>
