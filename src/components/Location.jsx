@@ -37,14 +37,14 @@ export default function Location() {
             variants={fadeUp}
             className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-dark leading-tight mb-4"
           >
-            Based in Kozhikode, Kerala
+            Based in Muscat, Oman
           </motion.h2>
           <motion.p
             variants={fadeUp}
             className="text-base md:text-lg text-muted flex items-center gap-2"
           >
             <MapPin size={18} className="text-primary" />
-            Available for remote projects worldwide and in-person in Calicut
+            Available for remote projects worldwide and in-person in Muscat, Oman
           </motion.p>
         </motion.div>
 
@@ -59,14 +59,14 @@ export default function Location() {
           >
             <div className="rounded-2xl overflow-hidden border border-border shadow-sm">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125363.24!2d75.7804!3d11.2588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x49c2a40e2c4ba76b!2sKozhikode%2C+Kerala!5e0!3m2!1sen!2sin!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116834.00977793133!2d58.38287235!3d23.58589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ff22129d363b%3A0x27f549c4d93ee44e!2sMuscat%2C%20Oman!5e0!3m2!1sen!2som!4v1710000000000!5m2!1sen!2som"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Jasira's Location — Kozhikode, Kerala"
+                title="Jasira's Location — Muscat, Oman"
               />
             </div>
           </motion.div>

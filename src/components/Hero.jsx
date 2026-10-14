@@ -103,7 +103,7 @@ export default function Hero() {
             variants={fadeUp}
             className="text-base md:text-lg text-muted mb-10"
           >
-            Based in Calicut, Kerala
+            Based in Muscat, Oman
           </motion.p>
 
           {/* Quote Block */}

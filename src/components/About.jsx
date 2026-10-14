@@ -34,8 +34,8 @@ const skills = [
 ]
 
 const stats = [
-  { value: "2+", label: "Years Experience" },
-  { value: "15+", label: "Projects Completed" },
+  { value: "Fresher", label: "Experience" },
+  { value: "2", label: "Projects Completed" },
   { value: "100%", label: "Client Satisfaction" },
 ]
 
@@ -79,7 +79,7 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="text-primary font-semibold hover:underline"
               >
-                Freelance digital marketer in Calicut
+                Freelance digital marketer in Muscat, Oman
               </a>
               , dedicated to helping businesses grow their online presence. With expertise in{" "}
               <a

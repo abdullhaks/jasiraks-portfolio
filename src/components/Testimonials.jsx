@@ -34,12 +34,12 @@ const testimonials = [
     rating: 4.5,
     text: "Working with Jasira was a game-changer for our social media strategy. She understood our brand voice perfectly and created campaigns that truly resonated with our audience. Our engagement rates increased by over 200%.",
   },
-  {
-    name: "Luthufi",
-    initials: "LT",
-    rating: 5,
-    text: "Exceptional work on our Google Ads campaigns. Jasira's data-driven approach and constant optimization helped us reduce our cost per acquisition significantly while increasing conversions. She's truly dedicated to client success.",
-  },
+  // {
+  //   name: "Luthufi",
+  //   initials: "LT",
+  //   rating: 5,
+  //   text: "Exceptional work on our Google Ads campaigns. Jasira's data-driven approach and constant optimization helped us reduce our cost per acquisition significantly while increasing conversions. She's truly dedicated to client success.",
+  // },
 ]
 
 function StarRating({ rating }) {

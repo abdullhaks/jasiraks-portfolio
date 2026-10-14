@@ -47,6 +47,7 @@ const navLinks = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Why Me", href: "#why-me" },
+  { label: "Work", href: "#work" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ]
@@ -76,7 +77,7 @@ export default function Footer() {
           {/* Top Row — Logo + Tagline */}
           <motion.div variants={fadeUp} className="text-center mb-10">
             <h2 className="font-serif text-3xl font-bold text-white mb-2">Jasira</h2>
-            <p className="text-white/50 text-sm">Freelance Digital Marketer, Calicut</p>
+            <p className="text-white/50 text-sm">Freelance Digital Marketer, Muscat, Oman</p>
           </motion.div>
 
           {/* Navigation Links */}

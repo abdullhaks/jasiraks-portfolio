@@ -6,6 +6,7 @@ import About from "./components/About"
 import Services from "./components/Services"
 import WhyChooseMe from "./components/WhyChooseMe"
 import Certifications from "./components/Certifications"
+import ClientWork from "./components/ClientWork"
 import FAQ from "./components/FAQ"
 import Testimonials from "./components/Testimonials"
 import Location from "./components/Location"
@@ -26,6 +27,7 @@ export default function App() {
         <Services />
         <WhyChooseMe />
         <Certifications />
+        <ClientWork />
         <FAQ />
         <Testimonials />
         <Location />
