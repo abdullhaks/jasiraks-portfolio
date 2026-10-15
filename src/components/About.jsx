@@ -74,7 +74,7 @@ export default function About() {
             <p className="text-base md:text-lg text-muted leading-[1.8] mb-6">
               I'm a passionate{" "}
               <a
-                href="https://jasira.digitalxwebctr.co.in/about/"
+                href="https://www.linkedin.com/in/jasiraanwar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary font-semibold hover:underline"
